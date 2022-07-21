@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".MainActivity">
+ <TextView
+ android:id="@+id/textView"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="46dp"
+ android:layout_marginBottom="666dp"
+ android:text="Simple Calculator"
+ android:textSize="36sp"
+ android:textStyle="bold"
+ tools:layout_editor_absoluteX="131dp"
+ tools:layout_editor_absoluteY="39dp" />
+ <EditText
+ android:id="@+id/editText2"
+ android:layout_width="146dp"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+android:layout_marginEnd="227dp"
+ android:layout_marginBottom="479dp"
+ android:ems="10"
+ android:hint="enter number2"
+ android:inputType="textPersonName"
+ android:text=""
+ android:textSize="24sp" />
+ <EditText
+ android:id="@+id/editText1"
+ android:layout_width="146dp"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="225dp"
+ android:layout_marginBottom="553dp"
+ android:ems="10"
+ android:hint="enter number 1"
+ android:inputType="textPersonName"
+ android:text=""
+ android:textSize="24sp" />
+ <TextView
+ android:id="@+id/tv1"
+ android:layout_width="102dp"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="61dp"
+ android:layout_marginBottom="520dp"
+ android:text="0"
+ android:textAlignment="center"
+ android:textSize="30sp" />
+
+<Button
+ android:id="@+id/add"
+ android:onClick="add"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="289dp"
+ android:layout_marginBottom="370dp"
+ android:text="ADD" />
+ <Button
+ android:id="@+id/sub"
+ android:onClick="sub"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="39dp"
+ android:layout_marginBottom="369dp"
+ android:text="SUB" />
+ <Button
+ android:id="@+id/div"
+ android:onClick="mul"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="283dp"
+ android:layout_marginBottom="249dp"
+ android:text="MUL" />
+<Button
+ android:id="@+id/mul"
+ android:onClick="div"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="33dp"
+ android:layout_marginBottom="244dp"
+ android:text="DIV" />
+</RelativeLayou
